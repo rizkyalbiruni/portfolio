@@ -730,6 +730,9 @@ img {
   outline: none;
 }
 /*==================== PROJECT IN MIND ====================*/
+#project-section{
+  padding: 0;
+}
 .project{
   text-align: center;
 }
@@ -1155,4 +1158,5 @@ img {
   .contact__inputs{
     grid-template-columns: repeat(2,1fr);
   }
+  
 }
