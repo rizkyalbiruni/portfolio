@@ -111,9 +111,11 @@
                       <h3 class="home__subtitle"><span class="auto-type"></span> Developer </h3>
                       <p class="home__description">A Ruby developer with essential
                         skills of programming, encompassing both back-end and front-end tools.</p>
-                        <a href="#contact" class="button button--flex">
-                          Contact Me <i class="uil uil-message button__icon"></i>
-                        </a>
+                        <div class="about__buttons">
+                          <a href="assets/pdf/CV - EN - New_compressed.pdf" class="button button--flex" target="_blank">
+                            Access CV<i class="uil uil-file button__icon"></i>
+                          </a>
+                        </div>
                     </div>
                 </div>
                 <div class="home__scroll">
@@ -125,6 +127,71 @@
                 </div>
               </div>
             </section>
+          <!--==================== PORTFOLIO ====================-->
+                      <section class="portfolio section" id="portfolio">
+                        <h2 class="section__title">Portfolio</h2>
+                        <span class="section__subtitle">Most recent work</span>
+
+                        <div class="portfolio__container container swiper mySwiper">
+                          <div class="swiper-wrapper">
+
+                            <!--==================== PORTFOLIO 1====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                              <img src="assets/img/Screenshot 2024-04-01 163050.png" alt="" class="portfolio__img">
+
+                              <div class="portfolio__data">
+                                <h3 class="portfolio__title">Sync Game App</h3>
+                                <p class="portfolio__description">A multiplayer game that challenges players to predict the position of a hidden
+                                  number within a given range. The game features dynamic gameplay and a chat feature for social interaction after each match.</p>
+                                  <a href="https://www.sync.rodeo/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                  </a>
+                              </div>
+                            </div>
+
+                            <!--==================== PORTFOLIO 2====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                              <img src="assets/img/Screenshot 2024-04-01 163726.png" alt="" class="portfolio__img">
+
+                              <div class="portfolio__data">
+                                <h3 class="portfolio__title">Airbnb clone</h3>
+                                <p class="portfolio__description">Working as a team we created an MVC app for renting surfboard, featured
+                                  with geocoding to display map and working with Active record as database</p>
+                                  <a href="https://surfing-the-web-4ea04c8e9eec.herokuapp.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                  </a>
+                              </div>
+                            </div>
+
+                            <!--==================== PORTFOLIO 3====================-->
+                            <div class="portfolio__content grid swiper-slide">
+                              <img src="assets/img/Screenshot 2024-04-20 151134.png" alt="" class="portfolio__img">
+
+                              <div class="portfolio__data">
+                                <h3 class="portfolio__title">Movies Search | API</h3>
+                                <p class="portfolio__description">a sleek movie search engine powered by Ruby on Rails. This app utilizes
+                                  plain ActiveRecord to swiftly search through a vast database of movie titles. It's database-free,
+                                  seamlessly fetching movie data in real-time from an open API source.</p>
+                                  <a href="https://rails-search-a3b7f709631f.herokuapp.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                  </a>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Add Arrows -->
+                          <div class="swiper-button-next">
+                            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                          </div>
+                          <div class="swiper-button-prev">
+                            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+                      </section>
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
@@ -287,72 +354,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </section>
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-              <h2 class="section__title">Portfolio</h2>
-              <span class="section__subtitle">Most recent work</span>
-
-              <div class="portfolio__container container swiper mySwiper">
-                <div class="swiper-wrapper">
-
-                  <!--==================== PORTFOLIO 1====================-->
-                  <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/Screenshot 2024-04-01 163050.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                      <h3 class="portfolio__title">Sync Game App</h3>
-                      <p class="portfolio__description">A multiplayer game that challenges players to predict the position of a hidden
-                        number within a given range. The game features dynamic gameplay and a chat feature for social interaction after each match.</p>
-                        <a href="https://www.sync.rodeo/" target="_blank" class="button button--flex button--small portfolio__button">
-                          Demo
-                          <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                  </div>
-
-                  <!--==================== PORTFOLIO 2====================-->
-                  <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/Screenshot 2024-04-01 163726.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                      <h3 class="portfolio__title">Airbnb clone</h3>
-                      <p class="portfolio__description">Working as a team we created an MVC app for renting surfboard, featured
-                        with geocoding to display map and working with Active record as database</p>
-                        <a href="https://surfing-the-web-4ea04c8e9eec.herokuapp.com/" target="_blank" class="button button--flex button--small portfolio__button">
-                          Demo
-                          <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                  </div>
-
-                  <!--==================== PORTFOLIO 3====================-->
-                  <div class="portfolio__content grid swiper-slide">
-                    <img src="assets/img/Screenshot 2024-04-20 151134.png" alt="" class="portfolio__img">
-
-                    <div class="portfolio__data">
-                      <h3 class="portfolio__title">Movies Search | API</h3>
-                      <p class="portfolio__description">a sleek movie search engine powered by Ruby on Rails. This app utilizes
-                        plain ActiveRecord to swiftly search through a vast database of movie titles. It's database-free,
-                        seamlessly fetching movie data in real-time from an open API source.</p>
-                        <a href="https://rails-search-a3b7f709631f.herokuapp.com/" target="_blank" class="button button--flex button--small portfolio__button">
-                          Demo
-                          <i class="uil uil-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Add Arrows -->
-                <div class="swiper-button-next">
-                  <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                  <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-pagination"></div>
               </div>
             </section>
 
