@@ -698,6 +698,37 @@ img {
   transform: translateX(.25rem);
 }
 
+.certificate__content{
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  margin-bottom: 50px;
+  padding: 0 1.5rem;
+  text-align: center;
+  /* width: 40px; */
+}
+
+.certif_button{
+  display: block;
+  width: 24%;
+  margin: auto;
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+}
+
+.certificate__img{
+  width: 94%;
+  border-radius: .5rem;
+}
+
+.certificate-container{
+  margin-bottom: var(--mb-3);
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after{
   content: '';
@@ -1158,5 +1189,5 @@ img {
   .contact__inputs{
     grid-template-columns: repeat(2,1fr);
   }
-  
+
 }
