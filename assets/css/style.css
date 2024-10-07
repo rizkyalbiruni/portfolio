@@ -749,6 +749,7 @@ img {
 
 .swiper-container-horizontal > .swiper-pagination-bullets{
   bottom: -2.5rem;
+  /* top: -1200px; */
 }
 
 .swiper-pagination-bullet-active{
